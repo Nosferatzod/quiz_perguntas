@@ -1,0 +1,70 @@
+/* Reseta margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f4f4f4, #e2e2e2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container para o resultado */
+#containerResultado {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Estilo para o título dos resultados */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo para as informações de resultados */
+#containerResultado p {
+    font-size: 22px;
+    margin: 15px 0;
+    color: #555;
+}
+
+/* Estilo para os textos dos resultados */
+#containerResultado span {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+/* Estilo para o botão de reiniciar jogo */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Remove o contorno padrão dos botões ao receber foco */
+button:focus {
+    outline: none;
+}

@@ -1,0 +1,107 @@
+/* Reseta margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f4f4f4, #e2e2e2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Permitir altura dinâmica */
+    min-height: 100vh; /* Garante altura mínima da viewport */
+    margin: 0;
+    overflow-x: hidden; /* Para evitar overflow horizontal */
+}
+#containerQuiz {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto; /* Ajuste para centralizar */
+    border: 2px solid red; /* Borda para visualizar o contêiner */
+}
+
+
+/* Container para o quiz e resultados 
+#containerQuiz, #containerResultado {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+    margin-top: 20px;
+}
+*/
+/* Estilo para o título do quiz */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo para as perguntas */
+.pergunta {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+/* Estilo para as opções de resposta */
+.pergunta label {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #555;
+}
+
+.pergunta input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Estilo para os botões */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Remove o contorno padrão dos botões ao receber foco */
+button:focus {
+    outline: none;
+}
+
+/* Estilo para as perguntas na tela de resultados */
+#containerResultado p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+/* Estilo para os textos dos resultados */
+#containerResultado span {
+    font-weight: bold;
+    color: #333;
+}
+#quizForm {
+    display: flex;
+    flex-direction: column;
+}
+
